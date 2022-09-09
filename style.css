@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.ecran {
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/bg3.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carte {
+  width: 90%;
+  max-width: 440px;
+  color: aliceblue;
+  text-align: center;
+  padding: 50px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+.carte h2 {
+  font-size: 50px;
+  font-weight: 600px;
+  margin-top: 20px;
+}
+.carte p {
+  font-size: 20px;
+  font-weight: 600px;
+  margin: 10px auto;
+}
+.carte img {
+  width: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.carte .reseau a img {
+  width: 40px;
+  border-radius: 50%;
+  margin: 10px 5px;
+  transition: background 0.5s;
+}
+.carte .reseau a :hover {
+  background: #f05ac3;
+}
+
+.bouton {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #fff;
+  color: #f05ac3;
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin: 30px 0 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
